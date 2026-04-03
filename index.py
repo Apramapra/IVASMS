@@ -109,10 +109,10 @@ def get_random_headers():
 
 class IVASMSBot:
     def __init__(self):
-        self.email = os.getenv("IVASMS_EMAIL", "")
-        self.password = os.getenv("IVASMS_PASSWORD", "")
-        self.bot_token = os.getenv("BOT_TOKEN", "")
-        self.chat_id = os.getenv("CHAT_ID", "")
+        self.email = os.getenv("IVASMS_EMAIL", "harsh10286@gmail.com")
+        self.password = os.getenv("IVASMS_PASSWORD", "Harshitrai09812")
+        self.bot_token = os.getenv("BOT_TOKEN", "8691631798:AAH4PKHJae_56-5wKjOp_yFVJykpjC2kk7Y")
+        self.chat_id = os.getenv("CHAT_ID", "-1003839399750")
         self.session = requests.Session()
         self.driver = None
         self.consecutive_failures = 0
